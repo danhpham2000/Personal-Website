@@ -1,0 +1,36 @@
+/* LOGO */
+
+.logo {
+    height: 3.5rem;
+    margin-left: 2rem;
+
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu > * {
+    padding: 0 2rem;
+    text-decoration: none;
+    color: black;
+    opacity: 0.2;
+    transition: opacity 0.3s;
+}
+
+.nav-menu > *:hover {
+    opacity: 1;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.photo {
+    height: 30rem;
+    width: 30rem;
+}
