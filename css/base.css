@@ -1,9 +1,17 @@
+:root {
+    --color-primary: #9681EB;
+    --color-primary-dark: #6527BE;
+}
+
+
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 
